@@ -1,13 +1,13 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] Five CSS Rules
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
-[ ] Three Images
-
+[ yes] Three Distinct CSS font-family Declarations
+[yes ] Five CSS Rules
+[yes ] An Unordered **or** Ordered List (<ul> or <ol>)
+[yes ] Three Images
+ 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Fill Text with Image Background 
-[ no ] Feature 2 - Change the <li> markers
+[ yes ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Use Google Font or Uploaded Font
 [ no ] Feature 5 - Change the Cursor
@@ -25,7 +25,7 @@ Select ONE Additional Feature to Add
   
 }
 #st-marks{
-  font-family:cursive;
+  font-family: cursive;
 }
 #vanderbilt{
   font-family:Arial, Helvetica, sans-serif;
@@ -38,6 +38,8 @@ p{
 }
 body{
   background-color: rgb(128, 166, 236);
+  margin-left: 150px;
+    margin-right: 150px;
 }
 h1{
   color:aqua
@@ -45,28 +47,70 @@ h1{
 h3{
   color:darkblue
 }
+
+li::marker{
+    content:"💖";
+    font size:1.2em;
+  
+  }
   </style>
 </head>
 <body>
 
-  <h1> My Unofficial Local Guide to Washington Ave- BK (Prospect Heights)</h1>
+  <h1> My Unofficial Local Food Guide to Washington Ave- BK (Prospect Heights)</h1>
   
-  <h3>Content Element 1</h3>
+  <h3>Gen Resturant</h3>
   <hr>
-  <p id="washington">About Content Element #1
-  I wonder blah blah blah</p>
+  <p id="washington">Gen is a Japanese Resturant that has been on my block 
+    since I was born, offering up many a birthday dinners as I have never
+     been a birthday party person. At gen they offer up a ton of high end 
+     dishes, however I have always loved gen for the Udon Noodle Soup 
+     which comes with shrimp and vegtable tempura. Other items that are
+      worth mentioning is their sashimi and eel
+     served with rice and vegtables. The eel is coated in the sweet and
+      savory sauce that is perfectly mixed between thick and thin consistency. As 
+    far as Gen's contribution to the neighborhood, it has beautiful outdoor seating
+  and they usually have some elaborate drawing on the sidewalk to greet
+neighbors. </p>
+  
   <br><br>
 <img src="https://images.squarespace-cdn.com/content/v1/55bfea81e4b003159a83c3ff/1689858713134-RUUNEDMGJ0A003UZYR2E/IMG_6201.jpeg?format=2500w" width="200">
 
-  <h3>Content Element 2</h3>
+  <h3>Cheryl's Global Soul Food</h3>
   <hr>
-  <p id="st-marks">About Content Element #2</p>
+  <p id="st-marks">Cheryl's Global Soul food is actually a resturant that has 
+    become a staple to our neighborhood with the owner, Cheryl, being extremley
+    adventerous to incorperating multiple cuisines. She is also extremley
+    sweet so she is a bit of a local celebrity. I personally think the fried catfish
+    with fries is extremley worth the hype, along with other dishes like the korean
+    bbq fried chicken and the chicken and pancakes. Its location is tucked away on St. Marks 
+    but with recent fads like Radio Bakery that opened up a block away
+    from it, it is activley gaining more traction.<thead></thead>
+  </p>
   <br><br>
 <img src="https://s3-media0.fl.yelpcdn.com/bphoto/XShbqlmppciH20kMKme5rg/l.jpg" width="200">
-  <h3>Content Element 3</h3>
+  <h3>Panca BK</h3>
   <hr>
-  <p id="vanderbilt">About Content Element #3</p>
+  <p id="vanderbilt">Panca BK is a extremely expensive resturant I have been to 
+    once but I wanted to add it if anyone is bougie or looking for a place
+    to spend all their money. This is a South-American/ Mediterrainian resturant,
+    and it definitley has a bit of somthing for evryone. For me, the octopus is
+    my favorite dish. Even though its technically a starter it is maybe the
+    best thing I have ever eaten, or at least in the top 3. Because they have a wood-fired
+    grill a lot of the dishes have a smokey taste, including the grilled whole fish
+    which i love. Overall I think all their seafood is top notch.
+  </p>
   <br><br>
+  
 <img src="https://s3-media0.fl.yelpcdn.com/bphoto/K1Z84HDWPJIMimnz4Dk0pg/348s.jpg"width=200>
+<h3 id="st-marks">
+    Honorable Mentions ( that I visit way more often) Include...
+ <ul style="color:blueviolet" id="washington">
+  
+  <li>Nourish Thai Food</li>
+  <li>Omar's (Indian Food, Bagles, and Pizza?)</li>
+  <li>One Bowl (I love their pork noodle soup)</li>
+  </ul>
+
 </body>
 </html>
